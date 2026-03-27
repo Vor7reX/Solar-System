@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System | Universe Engine</title>
+    
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="loader-overlay">
+        <div id="loader-content-mask">
+            <h1 id="loader-title-big">Discover Our Solar System</h1>
+            <h2 id="loader-credits">Made by Vor7reX</h2>
+        </div>
+    </div>
+
+    <div id="ui-title">Advanced SS Engine</div>
+    <button id="btn-back">Back to the Solar System</button>
+    <button id="nav-toggle">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+    </button>
+
+    <div id="nav-menu">
+        <div id="nav-header">Destinations</div>
+        <ul id="nav-list">
+            </ul>
+    </div>
+    
+    <div id="info-panel">
+        <h2 id="info-title">Planet Name</h2>
+        <div id="info-type">Planet Type</div>
+        <div class="info-row"><span class="info-label">Radius</span><span class="info-value" id="info-radius">--</span></div>
+        <div class="info-row"><span class="info-label">Orbit</span><span class="info-value" id="info-orbit">--</span></div>
+        <div class="info-row"><span class="info-label">Temp</span><span class="info-value" id="info-temp">--</span></div>
+        <div class="info-row" style="margin-top: 15px; border:none;"><span class="info-value" id="info-desc">--</span></div>
+        <button id="btn-explore">EXPLORE</button>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>

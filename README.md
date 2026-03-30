@@ -7,8 +7,8 @@ The project leverages hardware-accelerated 3D graphics to render complex Kepleri
 Powered by **Three.js** and optimized for zero-latency DOM updates and fluid cinematic transitions.
 
 
+https://github.com/user-attachments/assets/834f9d19-71f8-4280-88c8-e343b7400f15
 
-https://github.com/user-attachments/assets/510bb3ed-a3e0-4027-ab1f-d61d39e6cb5b
 
 
 [**Try the Live Demo**](https://vor7rex.github.io/Solar-System/) <a href="https:/pokemondbnet/pokedex/jirachi"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/jirachi.gif" alt="Jirachi" height="50"><a href="https://pokemondb.net/pokedex/mew"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/mew.gif" alt="Mew" height="50">
